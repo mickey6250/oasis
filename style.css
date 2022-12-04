@@ -1,0 +1,50 @@
+.container {
+  text-align: center;
+  padding: 10px;
+  border-radius: 1em;
+  height: 380px;
+  width: 250px;
+  margin: auto;
+  margin-top: auto;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border: red solid 5px;
+  margin-top: 183px;
+}
+
+body {
+  background-image: url("images.png");
+}
+#screen {
+  text-align: center;
+  border-color: black;
+}
+table {
+  margin: auto;
+  background: black;
+}
+input {
+  font-size: 20px;
+  text-align: center;
+  border: 2px solid black;
+}
+button {
+  font-size: 15px;
+  background: white;
+  width: 50px;
+  height: 40px;
+  border-radius: 15px;
+}
+.blink {
+  animation: blinker 1.5s linear infinite;
+  color: yellow;
+  font-family: sans-serif;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+.yo {
+  width: 240px;
+  height: fit-content;
+}
